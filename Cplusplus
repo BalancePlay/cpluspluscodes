@@ -295,6 +295,8 @@ int main()
     cout<<"The product of subarrays is"<<prod;
 }
 
+#Finding particular word in a string
+
 #include<cstring>
 #include<iostream>
 using namespace std;
