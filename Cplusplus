@@ -295,4 +295,21 @@ int main()
     cout<<"The product of subarrays is"<<prod;
 }
 
+#include<cstring>
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str= "Using find function";
+    string str1="function";
+    int n = str.find("function",0);
+    int size = str1.size();
+    int j=0;
+    for(int i=n,j=0;j<size;i++,j++)
+    {
+        if(str.at(n)==str1.at(j));
+        cout<<str.at(i);
+    }
+    return 0;
+}
 
